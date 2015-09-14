@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1121AC1BA6C02300347CF0 /* SCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1121AB1BA6C02300347CF0 /* SCViewController.m */; };
+		3BD535AB1BA6A5A3009F34FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD535AA1BA6A5A3009F34FD /* main.m */; };
+		3BD535AE1BA6A5A3009F34FD /* SCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD535AD1BA6A5A3009F34FD /* SCAppDelegate.m */; };
+		3BD535B61BA6A5A3009F34FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD535B51BA6A5A3009F34FD /* Images.xcassets */; };
+		3BD535B91BA6A5A3009F34FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BD535B71BA6A5A3009F34FD /* LaunchScreen.xib */; };
+		3BD535C51BA6A5A3009F34FD /* CodeSendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD535C41BA6A5A3009F34FD /* CodeSendTests.m */; };
+		3BDB51F81BA6D30B00B2142B /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDB51F71BA6D30B00B2142B /* FBSDKMessengerShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BD535BF1BA6A5A3009F34FD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BD5359D1BA6A5A3009F34FD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BD535A41BA6A5A3009F34FD;
+			remoteInfo = CodeSend;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B1121AA1BA6C02300347CF0 /* SCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCViewController.h; sourceTree = "<group>"; };
+		3B1121AB1BA6C02300347CF0 /* SCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCViewController.m; sourceTree = "<group>"; };
+		3BD535A51BA6A5A3009F34FD /* CodeSend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD535A91BA6A5A3009F34FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD535AA1BA6A5A3009F34FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BD535AC1BA6A5A3009F34FD /* SCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCAppDelegate.h; sourceTree = "<group>"; };
+		3BD535AD1BA6A5A3009F34FD /* SCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCAppDelegate.m; sourceTree = "<group>"; };
+		3BD535B51BA6A5A3009F34FD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3BD535B81BA6A5A3009F34FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3BD535BE1BA6A5A3009F34FD /* CodeSendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BD535C31BA6A5A3009F34FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BD535C41BA6A5A3009F34FD /* CodeSendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CodeSendTests.m; sourceTree = "<group>"; };
+		3BDB51F71BA6D30B00B2142B /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "sdk/FacebookSDKs-iOS-20150813/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BD535A21BA6A5A3009F34FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BDB51F81BA6D30B00B2142B /* FBSDKMessengerShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD535BB1BA6A5A3009F34FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1121AE1BA6CF8F00347CF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDB51F71BA6D30B00B2142B /* FBSDKMessengerShareKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BD5359C1BA6A5A3009F34FD = {
+			isa = PBXGroup;
+			children = (
+				3B1121AE1BA6CF8F00347CF0 /* Frameworks */,
+				3BD535A71BA6A5A3009F34FD /* CodeSend */,
+				3BD535C11BA6A5A3009F34FD /* CodeSendTests */,
+				3BD535A61BA6A5A3009F34FD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BD535A61BA6A5A3009F34FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BD535A51BA6A5A3009F34FD /* CodeSend.app */,
+				3BD535BE1BA6A5A3009F34FD /* CodeSendTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BD535A71BA6A5A3009F34FD /* CodeSend */ = {
+			isa = PBXGroup;
+			children = (
+				3BD535AC1BA6A5A3009F34FD /* SCAppDelegate.h */,
+				3BD535AD1BA6A5A3009F34FD /* SCAppDelegate.m */,
+				3B1121AA1BA6C02300347CF0 /* SCViewController.h */,
+				3B1121AB1BA6C02300347CF0 /* SCViewController.m */,
+				3BD535B51BA6A5A3009F34FD /* Images.xcassets */,
+				3BD535B71BA6A5A3009F34FD /* LaunchScreen.xib */,
+				3BD535A81BA6A5A3009F34FD /* Supporting Files */,
+			);
+			path = CodeSend;
+			sourceTree = "<group>";
+		};
+		3BD535A81BA6A5A3009F34FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD535A91BA6A5A3009F34FD /* Info.plist */,
+				3BD535AA1BA6A5A3009F34FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BD535C11BA6A5A3009F34FD /* CodeSendTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BD535C41BA6A5A3009F34FD /* CodeSendTests.m */,
+				3BD535C21BA6A5A3009F34FD /* Supporting Files */,
+			);
+			path = CodeSendTests;
+			sourceTree = "<group>";
+		};
+		3BD535C21BA6A5A3009F34FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BD535C31BA6A5A3009F34FD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BD535A41BA6A5A3009F34FD /* CodeSend */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD535C81BA6A5A3009F34FD /* Build configuration list for PBXNativeTarget "CodeSend" */;
+			buildPhases = (
+				3BD535A11BA6A5A3009F34FD /* Sources */,
+				3BD535A21BA6A5A3009F34FD /* Frameworks */,
+				3BD535A31BA6A5A3009F34FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodeSend;
+			productName = CodeSend;
+			productReference = 3BD535A51BA6A5A3009F34FD /* CodeSend.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BD535BD1BA6A5A3009F34FD /* CodeSendTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BD535CB1BA6A5A3009F34FD /* Build configuration list for PBXNativeTarget "CodeSendTests" */;
+			buildPhases = (
+				3BD535BA1BA6A5A3009F34FD /* Sources */,
+				3BD535BB1BA6A5A3009F34FD /* Frameworks */,
+				3BD535BC1BA6A5A3009F34FD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BD535C01BA6A5A3009F34FD /* PBXTargetDependency */,
+			);
+			name = CodeSendTests;
+			productName = CodeSendTests;
+			productReference = 3BD535BE1BA6A5A3009F34FD /* CodeSendTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BD5359D1BA6A5A3009F34FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = pdv;
+				TargetAttributes = {
+					3BD535A41BA6A5A3009F34FD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3BD535BD1BA6A5A3009F34FD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 3BD535A01BA6A5A3009F34FD /* Build configuration list for PBXProject "CodeSend" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BD5359C1BA6A5A3009F34FD;
+			productRefGroup = 3BD535A61BA6A5A3009F34FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BD535A41BA6A5A3009F34FD /* CodeSend */,
+				3BD535BD1BA6A5A3009F34FD /* CodeSendTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BD535A31BA6A5A3009F34FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD535B91BA6A5A3009F34FD /* LaunchScreen.xib in Resources */,
+				3BD535B61BA6A5A3009F34FD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD535BC1BA6A5A3009F34FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BD535A11BA6A5A3009F34FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD535AE1BA6A5A3009F34FD /* SCAppDelegate.m in Sources */,
+				3B1121AC1BA6C02300347CF0 /* SCViewController.m in Sources */,
+				3BD535AB1BA6A5A3009F34FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BD535BA1BA6A5A3009F34FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BD535C51BA6A5A3009F34FD /* CodeSendTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BD535C01BA6A5A3009F34FD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BD535A41BA6A5A3009F34FD /* CodeSend */;
+			targetProxy = 3BD535BF1BA6A5A3009F34FD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3BD535B71BA6A5A3009F34FD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BD535B81BA6A5A3009F34FD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BD535C61BA6A5A3009F34FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BD535C71BA6A5A3009F34FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BD535C91BA6A5A3009F34FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/pdv/sdk/FacebookSDKs-iOS-20150910",
+					"$(PROJECT_DIR)/sdk/FacebookSDKs-iOS-20150813",
+				);
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				INFOPLIST_FILE = CodeSend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD535CA1BA6A5A3009F34FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/pdv/sdk/FacebookSDKs-iOS-20150910",
+					"$(PROJECT_DIR)/sdk/FacebookSDKs-iOS-20150813",
+				);
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				INFOPLIST_FILE = CodeSend/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3BD535CC1BA6A5A3009F34FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodeSendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3BD535CD1BA6A5A3009F34FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CodeSendTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BD535A01BA6A5A3009F34FD /* Build configuration list for PBXProject "CodeSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD535C61BA6A5A3009F34FD /* Debug */,
+				3BD535C71BA6A5A3009F34FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD535C81BA6A5A3009F34FD /* Build configuration list for PBXNativeTarget "CodeSend" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD535C91BA6A5A3009F34FD /* Debug */,
+				3BD535CA1BA6A5A3009F34FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BD535CB1BA6A5A3009F34FD /* Build configuration list for PBXNativeTarget "CodeSendTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD535CC1BA6A5A3009F34FD /* Debug */,
+				3BD535CD1BA6A5A3009F34FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BD5359D1BA6A5A3009F34FD /* Project object */;
+}
